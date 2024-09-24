@@ -182,7 +182,7 @@ const Sidebar = () => {
         <FaVideo />
         <NavText>Meetings</NavText>
       </NavItem>
-      <NavItem>
+      <NavItem as={Link} to="/project">
         <FaListAlt />
         <NavText>Projects</NavText>
       </NavItem>
